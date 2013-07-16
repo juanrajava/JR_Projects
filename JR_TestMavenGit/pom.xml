@@ -7,13 +7,20 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>JR_TestMavenGit Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <repositories>
+  	<repository>  
+	    <id>prime-repo</id>  
+	    <name>PrimeFaces Maven Repository</name>  
+	    <url>http://repository.primefaces.org</url>  
+	    <layout>default</layout>  
+	</repository>
+  </repositories>
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
+    <dependency>  
+	    <groupId>org.primefaces</groupId>  
+	    <artifactId>primefaces</artifactId>  
+	    <version>3.5</version>  
+	</dependency>
   </dependencies>
   <build>
     <finalName>JR_TestMavenGit</finalName>
