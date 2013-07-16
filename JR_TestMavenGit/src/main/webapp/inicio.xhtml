@@ -1,0 +1,54 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+       xmlns:ui="http://java.sun.com/jsf/facelets"
+       xmlns:h="http://java.sun.com/jsf/html"
+       xmlns:f="http://java.sun.com/jsf/core"
+       xmlns:c="http://java.sun.com/jstl/core"
+       xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+       <link type="text/css" rel="stylesheet" href="resources/css/stylemm.css" />
+       <link type="text/css" rel="stylesheet" href="themes/bluesky/skin.css" />
+</h:head>
+<h:body> 
+	<h:form> 
+		<p:dock position="top">  
+		    <p:menuitem value="Home" icon="resources/images/dock/home.png" url="#"/>  
+		    <p:menuitem value="Music" icon="resources/images/dock/music.png" url="#"/>  
+		    <p:menuitem value="Video" icon="resources/images/dock/video.png" url="#"/>  
+		    <p:menuitem value="Email" icon="resources/images/dock/email.png" url="#"/>  
+		    <p:menuitem value="Portfolio" icon="resources/images/dock/portfolio.png" url="#"/>  
+		    <p:menuitem value="Link" icon="resources/images/dock/link.png" url="#"/>  
+		    <p:menuitem value="RSS" icon="resources/images/dock/rss.png" url="#"/>  
+		    <p:menuitem value="History" icon="resources/images/dock/history.png" url="#"/>  
+		</p:dock> 
+	
+		<center>
+		<p:panel closable="true" styleClass="panel_main">
+			<p:outputLabel value="MASMOVIL RESELLERS" style="padding:10px;"/>
+			
+			<center>
+			
+			<p:panelGrid columns="2" >
+			    <h:commandLink>
+				        <h:graphicImage value="resources/images/dock/home.png" />
+				</h:commandLink>
+				<h:commandLink>
+				        <h:graphicImage value="resources/images/dock/history.png" />
+				</h:commandLink>
+				<h:commandLink>
+				        <h:graphicImage value="resources/images/dock/video.png" />
+				</h:commandLink>
+				<h:commandLink>
+				        <h:graphicImage value="resources/images/dock/music.png" />
+				</h:commandLink>
+				
+			</p:panelGrid>
+			
+			</center>
+		</p:panel>
+		</center>
+		
+	</h:form>
+	
+</h:body> 
+</html>
